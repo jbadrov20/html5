@@ -1,0 +1,16 @@
+/* Postavljanje stila za canvas */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff; /* Crna pozadina */
+}
+
+#gameCanvas {
+    border: 5px solid black; /* Vidljivi rub canva */
+    display: block;
+    background-color: white; /* Tamnosiva unutrašnjost */
+}
